@@ -1,0 +1,318 @@
+@charset "UTF-8";
+
+@font-face {
+    font-family: 'Pretendard-Regular';
+    src: url('https://fastly.jsdelivr.net/gh/Project-Noonnu/noonfonts_2107@1.1/Pretendard-Regular.woff') format('woff');
+    font-weight: 400;
+    font-style: normal;
+}
+
+.inknut-antiqua-light {
+    font-family: "Inknut Antiqua", serif;
+    font-weight: 300;
+    font-style: normal;
+}
+
+.inknut-antiqua-regular {
+    font-family: "Inknut Antiqua", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.inknut-antiqua-medium {
+    font-family: "Inknut Antiqua", serif;
+    font-weight: 500;
+    font-style: normal;
+}
+
+.inknut-antiqua-semibold {
+    font-family: "Inknut Antiqua", serif;
+    font-weight: 600;
+    font-style: normal;
+}
+
+.inknut-antiqua-bold {
+    font-family: "Inknut Antiqua", serif;
+    font-weight: 700;
+    font-style: normal;
+}
+
+.inknut-antiqua-extrabold {
+    font-family: "Inknut Antiqua", serif;
+    font-weight: 800;
+    font-style: normal;
+}
+
+.inknut-antiqua-black {
+    font-family: "Inknut Antiqua", serif;
+    font-weight: 900;
+    font-style: normal;
+}
+
+
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+body {
+    line-height: 1;
+    color: #333;
+    font-family: "Inknut Antiqua", serif;
+}
+
+.bg_img img {
+    filter: blur(1.7px);
+    width: 1920px;
+    height: 950px;
+    object-fit: cover;
+}
+
+.main_text {
+    position: absolute;
+    top: 350px;
+    left: 1250px;
+    line-height: 1.4;
+}
+
+.main_text img {
+    position: absolute;
+    top: -100px;
+    left: 190px;
+}
+
+.main_text strong {
+    color: #00000025;
+    font-size: 40px;
+    margin-left: 90px;
+}
+
+.main_text h1 {
+    font-size: 64px;
+    color: #fff;
+    text-shadow: 2px 3px #33333369;
+}
+
+.bar {
+    background-color: #1F3B50;
+    width: 1920px;
+    height: 120px;
+    position: relative;
+    display: flex;
+    margin-top: 70px;
+}
+
+.bar img {
+    width: 100px;
+    height: 95px;
+    object-fit: cover;
+    position: absolute;
+    top: 10%;
+    left: 150px;
+}
+
+.bar .menu {
+    display: flex;
+    gap: 150px;
+    font-size: 20px;
+    justify-content: space-between;
+    margin-left: 600px;
+    align-items: center;
+    font-family: 'Pretendard-Regular';
+}
+
+.bar .menu a {
+    color: #fff;
+
+}
+
+.life {
+    position: relative;
+}
+
+.life .life_img {
+    width: 1920px;
+
+}
+
+.life .life_img img {
+    width: 100%;
+    height: 780px;
+    object-fit: cover;
+}
+
+.life .life_txt {
+    text-align: center;
+    line-height: 1.5;
+}
+
+.life .life_txt strong {
+    position: absolute;
+    top: 45%;
+    left: 930px;
+    font-size: 46px;
+    color: #C83E3E;
+    text-shadow: 3px 3px #333333;
+}
+
+.life .life_txt p {
+    font-size: 32px;
+    color: #fff;
+    position: absolute;
+    top: 63%;
+    left: 500px;
+    line-height: 2;
+    text-shadow: 3px 3px #333;
+}
+
+.intro p {
+    text-align: center;
+    font-size: 30px;
+    color: #1F3B50;
+    margin-top: 150px;
+}
+
+.intro .mySwiper {
+    margin-top: 30px;
+    font-family: 'Pretendard-Regular';
+}
+
+.intro .mySwiper img {
+    width: 100%;
+    height: 580px;
+    object-fit: cover;
+}
+
+.ar_do p:first-child {
+    text-align: center;
+    margin-top: 150px;
+    font-size: 30px;
+    position: relative;
+}
+
+.ar_do .ar_txt p:nth-child(2),
+.ar_do .ar_txt p:nth-child(3){
+    font-family: 'Pretendard-Regular';
+}
+
+.ar_do .ar_txt .ss {
+    margin-left: 400px;
+    margin-top: 100px;
+    color: #FF0202;
+}
+
+.ar_do .ar_txt .ss strong {
+    font-size: 32px;
+}
+
+.ar_do .ar_txt .ss p {
+    font-size: 20px;
+}
+
+.ar_do .ar_img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.ar_do p:nth-child(3) {
+    text-align: center;
+    margin-top: 50px;
+    line-height: 1.5;
+    font-size: 20px;
+    color: #9BADBA;
+}
+
+.hall_do {
+    text-align: center;
+    margin-top: 150px;
+    font-size: 30px;
+}
+
+.danji p {
+    text-align: center;
+    font-size: 30px;
+    margin-top: 150px;
+    margin-bottom: 70px;
+}
+
+.mySwiper02 {
+    width: 1850px;
+    text-align: center;
+    margin: 0 auto;
+    font-family: 'Pretendard-Regular';
+}
+
+.mySwiper02 p {
+    font-size: 30px;
+    margin-top: 150px;
+    margin-bottom: 70px;
+}
+
+.mySwiper02 img {
+    width: 100%;
+    height: 700px;
+    object-fit: cover;
+}
+
+.park p {
+    margin-top: 150px;
+    text-align: center;
+    font-size: 30px;
+    margin-bottom: 70px;
+}
+
+.park .parking {
+    margin-top: 70px;
+}
+
+.park .parking .park01 img {
+    width: 904px;
+    height: 1355px;
+    object-fit: cover;
+}
+
+.park .parking {
+    width: 1800px;
+    display: flex;
+    gap: 10px;
+    margin: 0 auto;
+}
+
+.park .parking .park02 {
+    display: flex;
+    flex-direction: column;
+    gap: 115px;
+}
+
+.park .parking .park02 img {
+    width: 857px;
+    height: 375px;
+    object-fit: cover;
+}
+
+.footer {
+    margin-top: 70px;
+    text-align: center;
+    background-color: #1F3B50;
+    color: #fff;
+}
+
+.footer img {
+    margin: 40px;
+}
+
+.footer p {
+    line-height: 1.7;
+    margin-bottom: 30px;
+}

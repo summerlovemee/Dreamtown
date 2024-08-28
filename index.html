@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DREAMTOWN</title>
+    <link rel="stylesheet" href="css/dt.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+</head>
+
+<body>
+    <div class="wrap">
+        <div class="bg_img"><img src="img/luke-van-zyl-koH7IVuwRLw-unsplash.jpg" alt=""></div>
+        <div class="main_text">
+            <img src="img/Group 1.png" alt="">
+            <strong>WELCOME TO</strong>
+            <h1>DREAM TOWN</h1>
+        </div><!-- .main_text end -->
+        <div class="bar">
+            <img src="img/Group 2.png" alt="">
+            <div class="menu">
+                <a href="https://posty.pe/sble7y0" target="_blank">단지소개</a>
+                <a href="https://posty.pe/sble7y0" target="_blank">설계도면</a>
+                <a href="https://posty.pe/sble7y0" target="_blank">단지조망</a>
+                <a href="https://www.postype.com/@clubcamouflage" target="_blank">주차안내</a>
+            </div><!-- .menu end -->
+        </div><!-- .bar end -->
+        <div class="life">
+            <div class="life_img"><img src="img/artur-voznenko-S1Mlljv0HPg-unsplash.jpg" alt=""></div>
+            <div class="life_txt">
+                <strong>Luxury Life</strong>
+                <p>대한민국 라이프스타일을 주도해 온 드림건설은 단순한 주거공간을 넘어<br>
+                    새로운 라이프스타일을 창조하는 ‘럭셔리 라이프 리더’로 거듭나고자 합니다.</p>
+            </div>
+        </div>
+        <div class="intro">
+            <p>단지소개</p>
+            <div class="swiper mySwiper">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide"><img src="img/10s.png" alt=""></div>
+                    <div class="swiper-slide"><img src="img/20s.png" alt=""></div>
+                    <div class="swiper-slide"><img src="img/30s.png" alt=""></div>
+                    <div class="swiper-slide"><img src="img/40s.png" alt=""></div>
+                    <div class="swiper-slide"><img src="img/50s.png" alt=""></div>
+                </div>
+                <div class="swiper-button-next"></div>
+                <div class="swiper-button-prev"></div>
+                <div class="swiper-pagination"></div>
+            </div>
+        </div>
+        <div class="ar_do">
+            
+            <div class="ar_txt">
+                <p>설계도면</p>
+                <div class="ss">
+                    <strong>152㎡</strong>
+                    <p>평면도 및 시설물 위치 (테라스형)</p>
+                </div>
+            </div><!-- .ar_txt end -->
+            <div class="ar_img"><img src="img/설계도면.png" alt=""></div>
+            <p>＊ 본 설계도면의 인테리어는 예시이며,<br>
+                실제 입주 시 다소 상이할 수 있습니다.</p>
+        </div><!-- .ar_do end -->
+        <div class="hall_do">
+            <p>복도도면</p>
+            <img src="img/복도도면.png" alt="">
+        </div><!-- .hall_do end -->
+            <div class="danji">
+                <p>단지조망</p>
+                    <div class="swiper mySwiper02">
+        
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide"><img src="img/노을한강조망.png" alt="">30S호에서 바라 본 전경</div>
+                    <div class="swiper-slide"><img src="img/한강조망.png" alt="">50S호에서 바라 본 전경</div>
+                    <div class="swiper-slide"><img src="img/노을조망.png" alt="">40S호에서 바라 본 전경</div>
+                </div>
+                <div class="swiper-button-next"></div>
+                <div class="swiper-button-prev"></div>
+                <div class="swiper-pagination"></div>
+                    </div>
+            </div><!-- .danji end -->
+        <div class="park">
+            <p>주차장</p>
+            <div class="parking">
+                <div class="park01">
+                    <img src="img/주차장.png" alt="">
+                </div>
+                <div class="park02">
+                    <img src="img/KakaoTalk_20240827_223425959.jpg" alt="">
+                    <img src="img/artur-voznenko-S1Mlljv0HPg-unsplash.jpg" alt="">
+                    <img src="img/KakaoTalk_20240827_223425959_01.jpg" alt="">
+                </div>
+            </div><!-- .parking end -->
+        </div><!-- .park end -->
+
+       <footer class="footer">
+        <img src="img/Group 2.png" alt="">
+        <p>개인정보처리방침 이용약관 이메일무단수집거부<br>
+            160825 서울시 시티구 드림로 75(희망동 140-2) NEO빌딩 사업자등록번호 : 127-825-12709 고객센터 : 0825-0423
+        </p>
+        <strong>COPYRIGHTⓒ DREAM ENGINEERING CO.,LTD. ALL RIGHT RESERVED</strong>
+       </footer>
+    </div><!-- .wrap end -->
+
+   
+
+
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+    <script>
+        var swiper = new Swiper(".mySwiper", {
+            slidesPerView: 3,
+            spaceBetween: 20,
+            pagination: {
+                el: ".swiper-pagination",
+                clickable: true,
+            },
+            navigation: {
+                nextEl: ".swiper-button-next",
+                prevEl: ".swiper-button-prev",
+            },
+        });
+
+    </script>
+    <script>
+        var swiper = new Swiper(".mySwiper02", {
+            slidesPerView: 2,
+            spaceBetween: 10,
+            pagination: {
+                el: ".swiper-pagination",
+                clickable: true,
+            },
+            navigation: {
+                nextEl: ".swiper-button-next",
+                prevEl: ".swiper-button-prev",
+            },
+        });
+
+    </script>
+</body>
+
+</html>
